@@ -10,16 +10,8 @@ import com.behnamesfandmaz.onlinebookstore.repository.BookRepository;
 public class OnlineBookStoreApplication {
 	
 	
-	@Autowired
-	static
-	BookRepository bookRepository;
-
 	public static void main(String[] args) {
 		SpringApplication.run(OnlineBookStoreApplication.class, args);
-
 	}
-	
-	
-	
 
 }
